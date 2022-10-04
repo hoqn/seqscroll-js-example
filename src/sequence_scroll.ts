@@ -1,4 +1,3 @@
-import * as timingFunction from './timing_function';
 import './sequence_scroll.scss';
 
 import bezierEasing from 'bezier-easing';

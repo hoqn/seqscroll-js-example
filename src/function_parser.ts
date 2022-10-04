@@ -101,7 +101,7 @@ export default class OptLineParser {
 
     private consumeCharacter(): string {
         const inputIterator = this.makeInputIterator(this.input, this.position);
-        const [currentPos, currentChar] = inputIterator.next().value;
+        const [, currentChar] = inputIterator.next().value;
         this.position ++;
         return currentChar;
     }
