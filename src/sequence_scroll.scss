@@ -1,0 +1,6 @@
+*[seqscroll-item] {
+    display: none;
+    &[data-seqscroll-pos="enabled"] {
+        display: block;
+    }
+}
